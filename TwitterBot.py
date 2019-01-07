@@ -113,7 +113,7 @@ class TwitterBot:
         :rtype: the number of tweets, followed by the tweets
         :param at: the person you're responding to/at
         :param long_tweet: the long-ass tweet you're trying to make
-        :return: the number of tweets and an array of up to 3 tweets
+        :return: the number of tweets and an array of tweets
         """
 
         # too big!
