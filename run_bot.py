@@ -45,7 +45,7 @@ def check_if_filler(tweet_text):
     tweet_numbers += [int(n) for n in tweet_raw_numbers]
     tweet_numbers.sort()
 
-    series, canon_set = ("shippuden", s_canon) if "shippuden" in tweet_text.lower() else ("(original)", og_canon)
+    series, canon_set = ("#shippuden", s_canon) if "shippuden" in tweet_text.lower() else ("(original)", og_canon)
 
     def verify(ep_num):
         if series == "(original)" and ep_num is 220:
@@ -61,7 +61,7 @@ def check_if_filler(tweet_text):
     if len(tweet_numbers) is 0:
         response = "Sorry, I don't see any (natural) episode numbers in your tweet. Believe it :("
     else:
-        response = "\n".join([f"For Naruto {series}:"] + [verify(episode) for episode in tweet_numbers])
+        response = "\n".join([f"For #Naruto {series}:"] + [verify(episode) for episode in tweet_numbers])
 
     return response
 
