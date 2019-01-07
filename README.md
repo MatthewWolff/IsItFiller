@@ -5,7 +5,7 @@ There's a lot of filler in Naruto. Like. A lot.
 
 Just tweet at this bot with an episode number to see if it's filler or not!  
 &nbsp;  
-Also, feel free to snag the `TwitterBot` class I wrote—it's pretty simply and I've used the same template 
+Also, feel free to snag the `TwitterBot` class I wrote—it's pretty simple and I've used the same template 
 for other bots that have very simple response patterns (check out [@theDNABot](https://twitter.com/theDNABot)!).
 
 ## Requirements
