@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import re
 from time import sleep
 from functools import reduce
