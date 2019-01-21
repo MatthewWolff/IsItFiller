@@ -69,4 +69,4 @@ def check_if_filler(tweet_text):
 
 if __name__ == "__main__":
     bot = TwitterBot(key)
-    bot.activate(response_method=check_if_filler)
+    bot.activate(response_method=check_if_filler, sleep_interval=120)
